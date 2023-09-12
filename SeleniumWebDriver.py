@@ -22,6 +22,7 @@ search_bar.send_keys(Keys.RETURN)
 #Prints the current URL the automation is running on
 print(driver.current_url)
 
+#Handles the current window
 print(driver.window_handles)
 
 
